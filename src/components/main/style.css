@@ -1,0 +1,19 @@
+.row {
+    display: flex;
+    height: 50vw;
+      }
+  
+  main{
+    overflow: auto;
+    flex:65%;
+    padding :10px;
+    background-color: #ffffff;
+      }
+
+  @media (max-width: 600px) {
+      .row {
+          -webkit-flex-direction: column;
+          flex-direction: column;
+          }
+        }
+      

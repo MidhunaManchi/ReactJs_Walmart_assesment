@@ -1,0 +1,35 @@
+.nav{
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex:1;
+    padding:0;
+    background-color:#D6EAF8;
+  
+  }
+  
+  .link{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .home{
+    padding:12px;
+    margin: 0;
+    text-align: center;
+    display: block;
+    font-size:23px;
+    font-weight: 640;
+    text-decoration: none;
+    color: #f00606;
+  }
+  
+  .forwardIcon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   vertical-align: text-bottom;
+  }

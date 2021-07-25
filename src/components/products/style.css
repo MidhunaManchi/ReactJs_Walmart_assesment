@@ -1,0 +1,28 @@
+.message{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin : 0px;
+    padding : 10px;
+    justify-content : center;
+    width: 75%;
+}
+
+.userDetails{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin : 0px;
+    padding : 10px;
+    justify-content: right;
+    width: 20%;
+}
+
+.outerContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin : 0px;
+    padding : 10px;
+ 
+}
